@@ -43,10 +43,16 @@
       <v-icon>mdi-heart</v-icon>
     </v-btn>
 
+    <!-- a circle button -->
     <v-btn fab depressed small dark color="purple">
       <v-icon>mdi-heart</v-icon>
     </v-btn>
 
+    <!-- visibility hidden on medium sized screen and anything less-->
+    <v-btn class="hidden-md-and-down">click me</v-btn>
+    <v-btn class="hidden-md-and-up">click me</v-btn>
+    <v-btn class="hidden-sm-only">click me</v-btn>
+    
   </div>
 </template>
 
