@@ -15,8 +15,9 @@
               <v-icon right>mdi-exit-to-app</v-icon>
           </v-btn>
       </v-toolbar>
-      <v-navigation-drawer app temporary v-model="drawer" class="indigo" >
-          <p>test</p>
+      <!-- <v-navigation-drawer app temporary v-model="drawer" class="indigo" > -->
+          <v-navigation-drawer app temporary v-model="drawer" class="success" >
+          <p class="accent">test</p>
       </v-navigation-drawer>
   </nav>
 </template>
